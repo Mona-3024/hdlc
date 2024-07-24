@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="task2_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Registration</h1>
+        <form>
+            <div class="form-section">
+                <div class="left-column">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="John">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="john.doe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="male"> Male</label>
+                            <label><input type="radio" name="gender" value="female"> Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="123-456-7890">
+                    </div>
+                    <div class="form-group">
+                        <label for="emergency-contact">Emergency Contact</label>
+                        <input type="tel" id="emergency-contact" placeholder="Emergency Contact Number">
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <select id="department">
+                            <option value="hr">HR</option>
+                            <option value="finance">Finance</option>
+                            <option value="it">IT</option>
+                            <option value="marketing">Marketing</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position</label>
+                        <select id="position">
+                            <option value="manager">Manager</option>
+                            <option value="executive">Executive</option>
+                            <option value="intern">Intern</option>
+                            <option value="assistant">Assistant</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="start-date">Start Date</label>
+                        <input type="date" id="start-date">
+                    </div>
+                    <div class="form-group">
+                        <label>Do you require a parking space?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="parking" value="yes"> Yes</label>
+                            <label><input type="radio" name="parking" value="no"> No</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Do you need a laptop?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="laptop" value="yes"> Yes</label>
+                            <label><input type="radio" name="laptop" value="no"> No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-section">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
